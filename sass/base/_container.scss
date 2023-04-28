@@ -1,16 +1,35 @@
 .container {
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
   margin-left: auto;
   margin-right: auto;
 
   @media screen and (min-width: $mobile) {
-    width: 480px;
+    width: 365px;
   }
   @media screen and (min-width: $tablet) {
-    width: 768px;
+    width: 786px;
+    padding-left: 70px;
+    padding-right: 70px;
   }
   @media screen and (min-width: $desktop) {
-    width: 1200px;
+    // width: 1200px;
+    width: 1440px;
+    padding-left: 120px;
+    padding-right: 120px;
   }
+
+  &--header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+    @media screen and (min-width: $desktop) {
+      justify-content: space-between;
+    }
+  }
+}
+
+.container--hero{
+  position: relative;
 }

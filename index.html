@@ -4,11 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Amor&Leche</title>
+    <title>AmorLeche</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Karla:wght@500;700&family=Montserrat:wght@400;500;700;900&family=Roboto:wght@300;400;500;700;900&display=swap"
       rel="stylesheet"
     />
     <link
@@ -19,8 +19,413 @@
   </head>
 
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <header class="header">
+      <div class="container container--header">
+        <a href="./index.html" class="logo logo--header link">
+          <svg class="logo__icon" aria-label="logo">
+            <use href="./images/icons.svg#logo"></use>
+          </svg>
+        </a>
+        <a
+          href="./form.html"
+          target="_blank"
+          class="button__register button__register--header link"
+          onclick="this.blur();"
+          >Registrarse</a
+        >
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="container container--hero">
+          <div class="hero_title__wrapper">
+            <p class="hero__intro">
+              Clase magistral en línea abierta de Verónika de Amor y Leche el
+              miércoles 3 de mayo a las 13:00
+            </p>
+            <h1 class="hero__title">
+              "Pastelerıa en casa"
+              <svg class="hero__title--symbol" aria-label="hero-title__symbol">
+                <use href="./images/icons.svg#title-symbol"></use>
+              </svg>
+            </h1>
+            <h3 class="hero__subtitle">
+              Cómo comenzar a preparar postres elegantes y ganar dinero con
+              ello, incluso si nunca antes has horneado.
+            </h3>
+          </div>
+          <div class="hero-benefits__wrapper">
+            <p class="hero-benefits__title">
+              <b class="hero-benefits__title--bold">Bonificaciones</b> para
+              todos los participantes del seminario web:
+            </p>
+            <ul class="hero-benefits list">
+              <li class="hero-benefits__item">
+                <svg
+                  class="hero-benefits__bullet"
+                  width="14"
+                  height="14"
+                  aria-label="hero-benefits-bullet"
+                >
+                  <use href="./images/icons.svg#circle-bullet"></use>
+                </svg>
+                <p class="hero-benefits__text">
+                  Detallada lección en el video <br />"Volcán de chocolate"
+                </p>
+              </li>
+              <li class="hero-benefits__item">
+                <svg
+                  class="hero-benefits__bullet"
+                  width="14"
+                  height="14"
+                  aria-label="hero-benefits-bullet"
+                >
+                  <use href="./images/icons.svg#circle-bullet"></use>
+                </svg>
+                <p class="hero-benefits__text">
+                  Colección de recetas de galletas.
+                </p>
+              </li>
+            </ul>
+            <a
+              href="./form.html"
+              target="_blank"
+              class="button__register link"
+              onclick="this.blur();"
+              >Registrarse</a
+            >
+          </div>
+
+          <!-- Decorative elements -->
+          <img
+            class="hero__book"
+            src="./images/hero/book.png"
+            alt="hero-book"
+          />
+          <a
+            href="https://www.youtube.com/"
+            target="_blank"
+            class="hero__video--link"
+            rel="noopener noreferrer nofollow"
+            onclick="this.blur();"
+          >
+            <img
+              class="hero__video"
+              src="./images/hero/video.png"
+              alt="hero-video"
+            />
+          </a>
+          <svg class="hero__arrow" aria-label="hero-arrow">
+            <use href="./images/icons.svg#hero-arrow"></use>
+          </svg>
+          <svg class="hero__lines" aria-label="hero-lines">
+            <use href="./images/icons.svg#hero-lines"></use>
+          </svg>
+          <svg class="hero__vector" aria-label="hero-vector">
+            <use href="./images/icons.svg#hero-vector"></use>
+          </svg>
+          <svg class="hero__line" aria-label="hero-line">
+            <use href="./images/icons.svg#hero-line"></use>
+          </svg>
+          <div class="hero__circle"></div>
+          <img
+            class="hero__image"
+            src="./images/hero/hero.png"
+            alt="hero-veronika"
+          />
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <h2 class="section__title">Lo que aprenderás en el seminario web</h2>
+          <ul>
+            <li>
+              <svg class="info__bullet" aria-label="bullet">
+                <use href="./images/icons.svg#info-bullet"></use>
+              </svg>
+              <p>¿Hay demanda de postres caseros?</p>
+            </li>
+            <li>
+              <svg class="info__bullet" aria-label="bullet">
+                <use href="./images/icons.svg#info-bullet"></use>
+              </svg>
+              <p>¿Por dónde empezar?</p>
+            </li>
+            <li>
+              <svg class="info__bullet" aria-label="bullet">
+                <use href="./images/icons.svg#info-bullet"></use>
+              </svg>
+              <p>
+                Los 5 principales mitos sobre la profesión de "Pastelero en
+                casa" que impiden comenzar.
+              </p>
+            </li>
+            <li>
+              <svg class="info__bullet" aria-label="bullet">
+                <use href="./images/icons.svg#info-bullet"></use>
+              </svg>
+              <p>
+                ¿Cómo ahorrar hasta un 50% en la compra del equipo necesario
+                para ser un pastelero?
+              </p>
+            </li>
+            <li>
+              <svg class="info__bullet" aria-label="bullet">
+                <use href="./images/icons.svg#info-bullet"></use>
+              </svg>
+              <p>
+                Los errores más comunes de los pasteleros principiantes y cómo
+                evitarlos.
+              </p>
+            </li>
+            <li>
+              <svg class="info__bullet" aria-label="bullet">
+                <use href="./images/icons.svg#info-bullet"></use>
+              </svg>
+              <p>
+                ¿Cómo puede un pastelero comenzar a ganar dinero en las redes
+                sociales?
+              </p>
+            </li>
+            <li>
+              <svg class="info__bullet" aria-label="bullet">
+                <use href="./images/icons.svg#info-bullet"></use>
+              </svg>
+              <p>
+                Recomendaciones para la presentación de cuentas en redes
+                sociales.
+              </p>
+            </li>
+          </ul>
+          <a
+            href="./form.html"
+            target="_blank"
+            class="button__register link"
+            onclick="this.blur();"
+            >Registrarse</a
+          >
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <h2 class="section__title">
+            El seminario web es perfecto para ti si
+          </h2>
+          <ul>
+            <li>
+              <p>
+                Quieres convertirte en
+                <b>un pastelero y ganar dinero con ello</b>, pero no sabes por
+                dónde empezar.
+              </p>
+            </li>
+            <li>
+              <p>
+                Quieres
+                <b
+                  >estar al tanto de todas las tendencias y novedades de 2023</b
+                >
+                y saber cómo aplicarlas correctamente.
+              </p>
+            </li>
+            <li>
+              <p>
+                Ya haces postres deliciosos, pero <b>no te gusta su aspecto</b>.
+              </p>
+            </li>
+            <li>
+              <p>
+                Aprendiste a hacer postres elegantes, pero
+                <b>no puedes encontrar clientes</b>.
+              </p>
+            </li>
+            <li>
+              <p>
+                Te enfrentas a la necesidad de
+                <b>cambiar de profesión, pero no sabes qué hacer</b>.
+              </p>
+            </li>
+            <li>
+              <p>
+                Simplemente
+                <b>quieres aprender a hacer postres y pasteles deliciosos</b>
+                para tu familia
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <h2 class="section__title">Después del seminario web, sabrás</h2>
+          <ul>
+            <li>
+              <span>1</span>
+              <p>
+                Si la profesión de pastelero en casa es adecuada para ti al 100%
+                y cómo puedes desarrollarte en este campo.
+              </p>
+            </li>
+            <li>
+              <span>2</span>
+              <p>Por dónde empezar tu camino como pastelero.</p>
+            </li>
+            <li>
+              <span>3</span>
+              <p>
+                Cómo evitar los errores que cometen el 90% de los pasteleros en
+                casa.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <h2 class="section__title">Reseñas</h2>
+          <ul>
+            <li>
+              <div>
+                <img
+                  src="./images/reviews/reviewer-1.jpg"
+                  width="70"
+                  height="70"
+                  alt="reviewer-1"
+                />
+                <p>Sofía</p>
+                <span>51 años</span>
+              </div>
+              <p>
+                "Me encantó el programa de mentoría de Verónika. Fue una
+                experiencia increíble y me dio la confianza para convertirme en
+                una pastelera profesional. Aprendí tantas cosas nuevas y recibí
+                consejos valiosos de alguien con una gran experiencia. ¡Gracias,
+                Verónika!".
+              </p>
+            </li>
+            <li>
+              <div>
+                <img
+                  src="./images/reviews/reviewer-2.jpg"
+                  width="70"
+                  height="70"
+                  alt="reviewer-2"
+                />
+                <p>Diego</p>
+                <span>31 años</span>
+              </div>
+              <p>
+                "Nunca pensé que sería posible convertirme en pastelera, pero
+                gracias a los cursos de Verónika, lo logré. Su atención al
+                detalle y su conocimiento profundo de la industria de la
+                pastelería me ayudaron a superar mis miedos y a crecer como
+                pastelera. Realmente recomiendo este programa a cualquiera que
+                quiera aprender a hacer postres deliciosos y hermosos".
+              </p>
+            </li>
+            <li>
+              <div>
+                <img
+                  src="./images/reviews/reviewer-3.jpg"
+                  width="70"
+                  height="70"
+                  alt="reviewer-3"
+                />
+                <p>Valentina</p>
+                <span>24 años</span>
+              </div>
+              <p>
+                "El curso de pastelería de Verónika es el mejor que he tomado.
+                Fue muy completo y cubrió todos los aspectos de la pastelería,
+                desde los fundamentos hasta las técnicas avanzadas. Los videos y
+                materiales de aprendizaje son muy útiles y fáciles de seguir.
+                Verónika es una excelente profesora y está siempre disponible
+                para responder preguntas y ofrecer apoyo. Me siento muy
+                agradecida por todo lo que aprendí".
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <h2 class="section__title">
+            La presentadora del seminario web <span>Verónika</span>
+          </h2>
+          <ul>
+            <li>
+              <svg class="host-info__bullet" aria-label="host-info-bullet">
+                <use href="./images/icons.svg#circle-bullet"></use>
+              </svg>
+              <p>Es la fundadora de la cafetería Amor y Leche en Concón.</p>
+            </li>
+            <li>
+              <svg class="host-info__bullet" aria-label="host-info-bullet">
+                <use href="./images/icons.svg#circle-bullet"></use>
+              </svg>
+              <p>Es una pastelera con 4 años de experiencia.</p>
+            </li>
+            <li>
+              <svg class="host-info__bullet" aria-label="host-info-bullet">
+                <use href="./images/icons.svg#circle-bullet"></use>
+              </svg>
+              <p>Es la autora de un programa de mentoría único.</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <h2 class="section__title">
+            No necesitas ser un pastelero profesional, decorador o fotógrafo
+          </h2>
+          <p>
+            Si alguna vez has horneado algo en tu vida y sabes cómo publicar
+            fotos en Instagram, ya tienes suficientes habilidades.
+          </p>
+          <b
+            >Para todo lo demás, está mi blog, mis seminarios web y mis
+            programas de capacitación.</b
+          >
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <h2 class="section__title">
+            Inscríbete en el seminario web en línea
+          </h2>
+          <p>
+            Y recibirás
+            <span>una colección adicional de recetas</span> inmediatamente
+            después de suscribirte
+          </p>
+          <a
+            href="./form.html"
+            target="_blank"
+            class="button__register link"
+            onclick="this.blur();"
+            >Registrarse</a
+          >
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <a href="./index.html" class="logo link">
+          <svg class="logo__icon" aria-label="logo">
+            <use href="./images/icons.svg#logo"></use>
+          </svg>
+        </a>
+        <p>© ALL RIGHTS RESERVED</p>
+      </div>
+    </footer>
   </body>
 </html>
