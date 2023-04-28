@@ -2,22 +2,41 @@
   padding-top: 60px;
   padding-bottom: 60px;
 
+  overflow: hidden;
+
   @media screen and (min-width: $desktop) {
       padding-top: 94px;
       padding-bottom: 94px;
   }
+
+  &--info{
+    padding: 100px 0;
+
+    @media screen and (min-width: $tablet) {
+      padding: 110px 0;
+    }
+
+    @media screen and (min-width: $desktop) {
+      padding: 165px 0;
+    }
+  }
 }
 
 .section__title {
+  font-family: 'Karla';
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 29px;
   margin-bottom: 30px;
   color: $black-color;
-  font-weight: 700;
-  font-size: 28px;
-  line-height: 1.17;
-  text-align: center;
+  
+  @media screen and (min-width: $tablet) {
+    font-size: 40px;
+    line-height: 47px;
+  }
 
   @media screen and (min-width: $desktop) {
-    margin-bottom: 50px;
-    font-size: 36px;
+    font-size: 60px;
+    line-height: 70px;
   }
 }

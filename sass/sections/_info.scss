@@ -1,0 +1,113 @@
+.info{
+    margin-bottom: 30px;
+}
+
+.info__item {
+    display: flex;
+    align-items: center;
+
+    &:not(:last-child){
+        margin-bottom: 20px;
+    }
+}
+
+.info__bullet{
+    height: 25.58px;
+    width: 23.68px;
+    margin-right: 11px;
+
+    @media screen and (min-width: $tablet) {
+        height: 31.48px;
+        width: 29.14px;
+    }
+
+    @media screen and (min-width: $desktop) {
+        height: 33.45px;
+        width: 30.96px;
+        margin-right: 13px;
+    }
+}
+
+.info__text{
+    width: 283px;
+    font-size: 16px;
+    line-height: 20px;
+
+    @media screen and (min-width: $tablet) {
+        font-size: 18px;
+        line-height: 22px;
+        width: 360px;
+    }
+
+    @media screen and (min-width: $desktop) {
+        font-size: 20px;
+        line-height: 24px;
+        width: 690px;
+    }
+
+    &--width-fix{
+        @media screen and (min-width: $desktop) {
+            width: 500px;
+        }
+    }
+}
+
+.info__image{
+    display: none;
+
+    @media screen and (min-width: $tablet) {
+        display: block;
+        position: absolute;
+        top: 121px;
+        right: -145px;
+        width: 434px;
+        height: 434px;
+    }
+
+    @media screen and (min-width: $desktop) {
+        top: -25px;
+        right: -130px;
+        width: 716px;
+        height: 716px;
+    }
+}
+
+.info__arrow {
+    position: absolute;
+    width: 96px;
+    height: 96px;
+    right: 15px;
+    bottom: 0;
+
+    @media screen and (min-width: $tablet) {
+        right: 400px;
+        bottom: 0;
+    }
+
+    @media screen and (min-width: $desktop) {
+        right: 1000px;
+        bottom: -20px;
+        transform: rotate(15deg);
+    }
+}
+
+.info__lines{
+    display: none;
+    
+    @media screen and (min-width: $tablet) {
+        display: block;
+        position: absolute;
+        top: 150px;
+        right: 220px;
+        width: 58.76px;
+        height: 58.76px;
+    }
+
+    @media screen and (min-width: $desktop) {
+        width: 83.73px;
+        height: 83.73px;
+        right: 530px;
+        top: 110px;
+        transform: rotate(-10deg);
+    }
+}
