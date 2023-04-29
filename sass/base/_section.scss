@@ -21,17 +21,30 @@
     }
   }
 
-    &--benefits {
-      padding: 70px 0;
-  
-      @media screen and (min-width: $tablet) {
-        padding: 90px 0;
-      }
+  &--benefits {
+    padding: 70px 0;
 
-      @media screen and (min-width: $tablet) {
-        padding: 90px 0 100px 0;
-      }
+    @media screen and (min-width: $tablet) {
+      padding: 90px 0;
     }
+
+    @media screen and (min-width: $tablet) {
+      padding: 90px 0 100px 0;
+    }
+  }
+
+  &--after-webinar{
+    position: relative;
+    padding-top: 100px;
+
+    @media screen and (min-width: $tablet) {
+      padding-top: 120px;
+    }
+
+    @media screen and (min-width: $desktop) {
+      padding-top: 130px;
+    }
+  }
 }
 
 .section__title {
@@ -58,6 +71,17 @@
     @media screen and (min-width: $tablet) {
       text-align: center;
       width: 560px;
+    }
+
+    @media screen and (min-width: $desktop) {
+      width: 100%;
+    }
+  }
+
+  &--after-webinar {
+    @media screen and (min-width: $tablet) {
+      text-align: center;
+      width: 530px;
     }
 
     @media screen and (min-width: $desktop) {
