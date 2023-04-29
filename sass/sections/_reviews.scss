@@ -103,10 +103,6 @@ ul.slick-dots {
     margin: 0;
     padding: 0;
     padding-left: 10px;
-
-    @media screen and (min-width: $tablet) {
-    padding-left: 65px;
-    }
 }
 
 .slick-dots {
@@ -131,7 +127,7 @@ ul.slick-dots {
     cursor: pointer;
 
     @media screen and (min-width: $tablet) {
-        width: 235px;
+        width: 215px;
     }
 
     &::after {
@@ -163,7 +159,7 @@ ul.slick-dots {
     background-size: contain;
 
     @media screen and (min-width: $tablet) {
-        width: 235px;
+        width: 215px;
     }
 }
 

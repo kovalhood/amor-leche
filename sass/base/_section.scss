@@ -68,6 +68,7 @@
     &--article {
       background-color: #FFE7DB;
       padding: 0 0 374px 0;
+      overflow: hidden;
 
       @media screen and (min-width: $tablet) {
         padding: 0 0 175px 0;
