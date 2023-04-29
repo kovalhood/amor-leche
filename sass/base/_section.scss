@@ -20,15 +20,29 @@
       padding: 165px 0;
     }
   }
+
+    &--benefits {
+      padding: 70px 0;
+  
+      @media screen and (min-width: $tablet) {
+        padding: 90px 0;
+      }
+
+      @media screen and (min-width: $tablet) {
+        padding: 90px 0 100px 0;
+      }
+    }
 }
 
 .section__title {
+  position: relative;
   font-family: 'Karla';
   font-weight: 500;
   font-size: 25px;
   line-height: 29px;
   margin-bottom: 30px;
   color: $black-color;
+  z-index: 100;
   
   @media screen and (min-width: $tablet) {
     font-size: 40px;
@@ -38,5 +52,16 @@
   @media screen and (min-width: $desktop) {
     font-size: 60px;
     line-height: 70px;
+  }
+
+  &--benefits{
+    @media screen and (min-width: $tablet) {
+      text-align: center;
+      width: 560px;
+    }
+
+    @media screen and (min-width: $desktop) {
+      width: 100%;
+    }
   }
 }

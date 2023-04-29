@@ -31,6 +31,13 @@
 }
 
 .container--hero,
-.container--info {
+.container--info,
+.container--benefits {
   position: relative;
+}
+
+.container--benefits{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
