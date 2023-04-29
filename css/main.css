@@ -139,7 +139,10 @@ address {
     padding: 190px 0 300px 0;
   }
 }
-
+.section--signing {
+  position: relative;
+  padding-bottom: 0;
+}
 .section__title {
   position: relative;
   font-family: "Karla";
@@ -197,6 +200,16 @@ address {
     width: 620px;
   }
 }
+@media screen and (min-width: 786px) {
+  .section__title--signing {
+    width: 450px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .section__title--signing {
+    width: 667px;
+  }
+}
 
 .container {
   padding-left: 30px;
@@ -248,7 +261,8 @@ address {
 .container--after-webinar,
 .container--reviews,
 .container--about,
-.container--article {
+.container--article,
+.container--signing {
   position: relative;
 }
 
@@ -1912,5 +1926,215 @@ ul.slick-dots {
     left: 820px;
     width: 51.28px;
     height: 56.18px;
+  }
+}
+
+.signing--wrapper {
+  position: relative;
+  padding: 70px 0 277px 0;
+  z-index: 4;
+}
+@media screen and (min-width: 786px) {
+  .signing--wrapper {
+    padding: 80px 60px 90px 60px;
+    width: 646px;
+    height: 459px;
+    background: #FFFFFF;
+    border-radius: 60px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .signing--wrapper {
+    padding: 90px 60px 105px 60px;
+    width: 1100px;
+    height: 507px;
+    border-radius: 80px;
+  }
+}
+
+.signing-pink__background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 344px;
+  background-color: #FFE7DB;
+  border-radius: 0 0 50px 50px;
+  z-index: 1;
+}
+@media screen and (min-width: 786px) {
+  .signing-pink__background {
+    border-radius: 0 0 80px 80px;
+    height: 253px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .signing-pink__background {
+    border-radius: 0 0 120px 120px;
+    height: 278px;
+  }
+}
+
+.signing__background {
+  position: absolute;
+  width: 345px;
+  height: 600px;
+  left: 10px;
+  top: 0;
+  background-color: #ffffff;
+  border-radius: 50px;
+  z-index: 2;
+}
+@media screen and (min-width: 786px) {
+  .signing__background {
+    display: none;
+  }
+}
+
+.signing__text {
+  font-size: 14px;
+  line-height: 26px;
+  margin-bottom: 30px;
+}
+@media screen and (min-width: 786px) {
+  .signing__text {
+    font-size: 18px;
+    line-height: 28px;
+    width: 370px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .signing__text {
+    font-size: 23px;
+    line-height: 30px;
+    width: 585px;
+  }
+}
+.signing__text--highlight {
+  background-color: rgba(245, 111, 112, 0.3);
+  padding: 0 5px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+@media screen and (min-width: 1440px) {
+  .signing__text--highlight {
+    border-radius: 10px 0 0 10px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .signing__text--highlight-2 {
+    margin-left: -6.2px;
+    border-radius: 0 10px 10px 0;
+  }
+}
+
+.signing__image {
+  position: absolute;
+  bottom: 20px;
+  right: 25px;
+  height: 233.33px;
+  z-index: 10;
+}
+@media screen and (min-width: 786px) {
+  .signing__image {
+    bottom: 32px;
+    right: 90px;
+    height: 235.97px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .signing__image {
+    bottom: 32px;
+    right: 270px;
+    height: 392.06px;
+  }
+}
+
+.signing__vector,
+.signing__arrow {
+  position: absolute;
+  z-index: 30;
+}
+
+.signing__vector--mob {
+  bottom: 5px;
+  left: -10px;
+  width: 106px;
+  height: 74px;
+  z-index: 20;
+}
+@media screen and (min-width: 786px) {
+  .signing__vector--mob {
+    display: none;
+  }
+}
+.signing__vector--tab {
+  display: none;
+}
+@media screen and (min-width: 786px) {
+  .signing__vector--tab {
+    display: block;
+    top: -16px;
+    right: -12px;
+    width: 150.21px;
+    height: 74.13px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .signing__vector--tab {
+    display: none;
+  }
+}
+.signing__vector--desk {
+  display: none;
+}
+@media screen and (min-width: 1440px) {
+  .signing__vector--desk {
+    display: block;
+    top: 67px;
+    right: 170px;
+    width: 150.21px;
+    height: 74.13px;
+  }
+}
+
+.signing__arrow--mob {
+  top: 216px;
+  right: -70px;
+  height: 115.46px;
+  height: 115.46px;
+}
+@media screen and (min-width: 786px) {
+  .signing__arrow--mob {
+    display: none;
+  }
+}
+.signing__arrow--tab {
+  display: none;
+}
+@media screen and (min-width: 786px) {
+  .signing__arrow--tab {
+    display: block;
+    bottom: 66px;
+    right: 275px;
+    width: 125.05px;
+    height: 125.05px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .signing__arrow--tab {
+    display: none;
+  }
+}
+.signing__arrow--desk {
+  display: none;
+}
+@media screen and (min-width: 1440px) {
+  .signing__arrow--desk {
+    display: block;
+    bottom: 67px;
+    right: 626px;
+    width: 148.58px;
+    height: 148.58px;
   }
 }/*# sourceMappingURL=main.css.map */

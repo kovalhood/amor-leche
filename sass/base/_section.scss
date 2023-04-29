@@ -77,6 +77,17 @@
         padding: 190px 0 300px 0;
       }
     }
+
+    &--signing {
+      position: relative;
+      padding-bottom: 0;
+
+      @media screen and (min-width: $tablet) {
+      }
+
+      @media screen and (min-width: $desktop) {
+      }
+    }
 }
 
 .section__title {
@@ -132,6 +143,16 @@
   
     @media screen and (min-width: $desktop) {
       width: 620px;
+    }
+  }
+
+  &--signing{
+    @media screen and (min-width: $tablet) {
+      width: 450px;
+    }
+  
+    @media screen and (min-width: $desktop) {
+      width: 667px;
     }
   }
 }
