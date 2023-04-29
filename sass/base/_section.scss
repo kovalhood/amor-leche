@@ -36,6 +36,7 @@
   &--after-webinar{
     position: relative;
     padding-top: 100px;
+    padding-bottom: 0;
 
     @media screen and (min-width: $tablet) {
       padding-top: 120px;
@@ -43,6 +44,15 @@
 
     @media screen and (min-width: $desktop) {
       padding-top: 130px;
+    }
+  }
+
+  &--reviews{
+    background-color: #FFE7DB;
+    padding: 100px 0;
+    
+    @media screen and (min-width: $tablet) {
+      padding: 120px 0;
     }
   }
 }
@@ -87,5 +97,9 @@
     @media screen and (min-width: $desktop) {
       width: 100%;
     }
+  }
+
+  &--reviews {
+    text-align: center;
   }
 }

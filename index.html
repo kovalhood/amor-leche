@@ -372,7 +372,6 @@
             </ul>
           </div>
           <div class="after-webinar-list__background"></div>
-          <div class="after-webinar__donuts--mob"></div>
           <img
             class="after-webinar__donuts after-webinar__donuts--mob"
             src="./images/after-webinar/donuts-mob.png"
@@ -393,41 +392,45 @@
         <div class="after-webinar-pink__background"></div>
       </section>
 
-      <section class="section">
-        <div class="container">
-          <h2 class="section__title">Reseñas</h2>
-          <ul>
-            <li>
-              <div>
+      <section class="section section--reviews">
+        <div class="container container--reviews">
+          <h2 class="section__title section__title--reviews">Reseñas</h2>
+          <div class="reviews list">
+            <div class="reviews__item">
+              <div class="reviews__info">
                 <img
                   src="./images/reviews/reviewer-1.jpg"
                   width="70"
                   height="70"
                   alt="reviewer-1"
                 />
-                <p>Sofía</p>
-                <span>51 años</span>
+                <div class="reviews__reviewer-info">
+                  <p class="reviews__name">Sofía</p>
+                  <span class="reviews__age">51 años</span>
+                </div>
               </div>
-              <p>
+              <p class="reviews__text">
                 "Me encantó el programa de mentoría de Verónika. Fue una
                 experiencia increíble y me dio la confianza para convertirme en
                 una pastelera profesional. Aprendí tantas cosas nuevas y recibí
                 consejos valiosos de alguien con una gran experiencia. ¡Gracias,
                 Verónika!".
               </p>
-            </li>
-            <li>
-              <div>
+            </div>
+            <div class="reviews__item">
+              <div class="reviews__info">
                 <img
                   src="./images/reviews/reviewer-2.jpg"
                   width="70"
                   height="70"
                   alt="reviewer-2"
                 />
-                <p>Diego</p>
-                <span>31 años</span>
+                <div class="reviews__reviewer-info">
+                  <p class="reviews__name">Diego</p>
+                  <span class="reviews__age">31 años</span>
+                </div>
               </div>
-              <p>
+              <p class="reviews__text">
                 "Nunca pensé que sería posible convertirme en pastelera, pero
                 gracias a los cursos de Verónika, lo logré. Su atención al
                 detalle y su conocimiento profundo de la industria de la
@@ -435,19 +438,21 @@
                 pastelera. Realmente recomiendo este programa a cualquiera que
                 quiera aprender a hacer postres deliciosos y hermosos".
               </p>
-            </li>
-            <li>
-              <div>
+            </div>
+            <div class="reviews__item">
+              <div class="reviews__info">
                 <img
                   src="./images/reviews/reviewer-3.jpg"
                   width="70"
                   height="70"
                   alt="reviewer-3"
                 />
-                <p>Valentina</p>
-                <span>24 años</span>
+                <div class="reviews__reviewer-info">
+                  <p class="reviews__name">Valentina</p>
+                  <span class="reviews__age">24 años</span>
+                </div>
               </div>
-              <p>
+              <p class="reviews__text">
                 "El curso de pastelería de Verónika es el mejor que he tomado.
                 Fue muy completo y cubrió todos los aspectos de la pastelería,
                 desde los fundamentos hasta las técnicas avanzadas. Los videos y
@@ -456,8 +461,34 @@
                 para responder preguntas y ofrecer apoyo. Me siento muy
                 agradecida por todo lo que aprendí".
               </p>
-            </li>
-          </ul>
+            </div>
+          </div>
+
+          <!-- Decorative elements -->
+          <svg
+            class="reviews__icon reviews__icon--highlight-mob"
+            aria-label="highlight"
+          >
+            <use href="./images/icons.svg#reviews-highlight-mob"></use>
+          </svg>
+          <svg
+            class="reviews__icon reviews__icon--highlight-tab"
+            aria-label="highlight"
+          >
+            <use href="./images/icons.svg#reviews-highlight-tab"></use>
+          </svg>
+          <svg
+            class="reviews__icon reviews__icon--highlight-desk"
+            aria-label="highlight"
+          >
+            <use href="./images/icons.svg#reviews-highlight-desk"></use>
+          </svg>
+          <svg
+            class="reviews__icon reviews__icon--vector-desk"
+            aria-label="vector"
+          >
+            <use href="./images/icons.svg#reviews-vector-desk"></use>
+          </svg>
         </div>
       </section>
 
@@ -536,5 +567,9 @@
         <p>© ALL RIGHTS RESERVED</p>
       </div>
     </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="./js/slick-script.js"></script>
   </body>
 </html>
