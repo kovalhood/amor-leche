@@ -1394,7 +1394,7 @@ address {
   z-index: 5;
 }
 .after-webinar__donuts--mob {
-  bottom: 180px;
+  bottom: 0;
   right: 20px;
   width: 126.79px;
   height: 177.32px;
