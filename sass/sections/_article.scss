@@ -63,7 +63,7 @@
 
 .article__vector{
     &--mob{
-        top: -210px;
+        bottom: -20px;
         left: -10px;
         width: 178px;
         height: 125px;
@@ -79,7 +79,7 @@
 
         @media screen and (min-width: $tablet) {
             display: block;
-            top: -110px;
+            bottom: -95px;
             left: 0;
             width: 149px;
             height: 105px;
