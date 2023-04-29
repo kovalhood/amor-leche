@@ -64,6 +64,19 @@
         padding: 100px 0;
       }
     }
+
+    &--article {
+      background-color: #FFE7DB;
+      padding: 0 0 374px 0;
+
+      @media screen and (min-width: $tablet) {
+        padding: 0 0 175px 0;
+      }
+
+      @media screen and (min-width: $desktop) {
+        padding: 190px 0 300px 0;
+      }
+    }
 }
 
 .section__title {
@@ -110,5 +123,15 @@
 
   &--reviews {
     text-align: center;
+  }
+
+  &--article {
+    @media screen and (min-width: $tablet) {
+      width: 465px;
+    }
+  
+    @media screen and (min-width: $desktop) {
+      width: 620px;
+    }
   }
 }
