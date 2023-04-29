@@ -55,10 +55,6 @@ address {
   margin: 0;
 }
 
-section {
-  overflow: hidden;
-}
-
 .section {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -2103,7 +2099,7 @@ ul.slick-dots {
   .signing__vector--tab {
     display: block;
     top: -16px;
-    right: -12px;
+    right: 0;
     width: 150.21px;
     height: 74.13px;
   }
@@ -2128,9 +2124,9 @@ ul.slick-dots {
 
 .signing__arrow--mob {
   top: 216px;
-  right: -70px;
+  right: 25px;
   height: 115.46px;
-  height: 115.46px;
+  width: 115.46px;
 }
 @media screen and (min-width: 786px) {
   .signing__arrow--mob {
