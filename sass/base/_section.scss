@@ -55,6 +55,15 @@
       padding: 120px 0;
     }
   }
+
+    &--about {
+      background-color: #FFE7DB;
+      padding: 0 0 105px 0;
+  
+      @media screen and (min-width: $desktop) {
+        padding: 100px 0;
+      }
+    }
 }
 
 .section__title {
